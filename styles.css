@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+.header, .siteDescription{
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    gap: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:visited{
+    color: #E5E7EB;
+}
